@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+.container {
+	padding: 12px;
+	margin-top: 18px;
+	margin-bottom: 72px;
+	background-color: rgba(255, 255, 255, 0.5); 
+	background-color: rgba(255, 255, 255, 0.5); 
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7FFFFFFF, endcolorstr=#7FFFFFFF, gradienttype=0);
+}
+
+.tab-content {
+	padding: 18px;
+	border-left: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	-webkit-border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+}
+
+.nav-tabs {
+	margin-bottom: 0;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.nav-tabs a {
+	background-color: rgba(0, 0, 0, 0.2);
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#33000000, endcolorstr=#33000000, gradienttype=0);
+}
+
+.nav-tabs > li > label {
+	padding: 8px 12px 0;
+	margin-right: 2px;
+	line-height: 18px;
+
+	border: 1px solid transparent;
+
+	-webkit-border-radius: 4px 4px 0 0;
+	-moz-border-radius: 4px 4px 0 0;
+	border-radius: 4px 4px 0 0;
+}
+
+.nav-tabs > li > a:hover {
+	background: none;
+	background-color: rgba(0, 0, 0, 0.1);
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#19000000, endcolorstr=#19000000, gradienttype=0);
+}
+
+.nav-tabs > li.active {
+	
+}
+
+.nav-tabs > li.active > a {
+	border: 1px solid #CCCCCC;
+	border-bottom-color: rgba(255, 255, 255, 0.7);
+	background: none;
+	background-color: rgba(255,255,255,0.1);
+	
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#19FFFFFF, endcolorstr=#19FFFFFF, gradienttype=0);
+}
+
+.nav-tabs > li.active > a:hover {
+	border: 1px solid #CCCCCC;
+	border-bottom-color: rgba(255, 255, 255, 0.7);
+
+	background-color: rgba(255,255,255,0.1);
+		
+	filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#19FFFFFF, endcolorstr=#19FFFFFF, gradienttype=0);
+}
+
+.label {
+	padding: 3px 4px 2px;
+}
+
+a:link, a:active, a:visited {
+	color: #076500;
+	font-weight: bold;
+}
